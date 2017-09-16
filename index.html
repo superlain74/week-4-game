@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+
+<body>
+
+<center>
+	<div class="header">
+		<h1>Crystal Collector</h1>
+	</div>
+
+	<div class="instructions">
+		</br>
+		<ol>
+			<li>Click the crystals to add to your Total number.</li>
+			<li>You win the game by matching your Total number to the Crystal number.</li>
+			<li>You lose the game if your Total number goes above the Crystal number.</li>
+		</ol>
+	</div>
+
+	<section class="stats">
+	<div class="numberToMatch">
+		<h2>Crystal number:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+
+	<div class="userTotal">
+		<h2>Your Total number is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	</section>
+
+	<section class="pics">
+	<div class="gems">
+		<img src="assets/images/crystal1.jpg" class=gemImage id="crystal1" alt="crystal1 Gem"> 
+		<img src="assets/images/crystal2.jpg" class=gemImage id="crystal2" alt="crystal2 Gem"> 
+		<img src="assets/images/crystal3.jpg" class=gemImage id= "crystal3" alt="crystal3 Gem"> 
+		<img src="assets/images/crystal4.jpg" class=gemImage id= "crystal4" alt="crystal4 Gem">
+	</div>
+	</section>
+</center>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+
+
+</html>
